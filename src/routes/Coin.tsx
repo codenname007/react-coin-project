@@ -186,7 +186,7 @@ function Coin(){
       </Helmet>
       <Header>
         <Title>{state?.name ? state.name : loading ? "Loading..." : infoData?.name}
-        <Link to="/"><FontAwesomeIcon icon={ faHouse } 
+        <Link to={`${process.env.PUBLIC_URL}/`}><FontAwesomeIcon icon={ faHouse } 
         style = {{
           color : "#FFA400",
           position : "absolute",

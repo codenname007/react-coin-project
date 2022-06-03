@@ -35,7 +35,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build",
-    "predeploy" : "npm run build"
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -60,6 +60,5 @@
     "@types/react-router-dom": "^5.3.3",
     "@types/styled-components": "^5.1.24"
   },
-
-  "hompage" : "https://codename007.github.io/React-Coin-Project"
+  "homepage": "https://codename007.github.io/react-coin-project"
 }
