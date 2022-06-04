@@ -10,11 +10,11 @@
 
 
 ### 사용기술
-- Language/Library : React 
+- Language/Library : React Typescript
 - CSS : Styled component, theme
 - State management : Recoil 
 - API요청 : React query
-- 사용한 API : 	https://api.coinpaprika.com/v1/ (BASE_URL)
+- 사용한 API : https://api.coinpaprika.com/v1/ (BASE_URL)
 - tickers, historical, coins 사용
 - Chart : ApexChart로 구현 (https://apexcharts.com/)
 
