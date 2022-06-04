@@ -7,7 +7,7 @@
 - api에서 데이터를 받아와서 Coin별로 설명, 가격, 일주일간 최근 가격별 Chart, 환전 table을 보여주는 웹사이트입니다.
 
 ## About Project
-<hr>
+
 
 ### 사용기술
 - Language/Library : React 
@@ -20,4 +20,4 @@
 
 
 ### URL 
-url : https://codenname007.github.io/react-coin-project/
+- url : https://codenname007.github.io/react-coin-project/
