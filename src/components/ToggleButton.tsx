@@ -6,13 +6,11 @@ import styled from "styled-components";
 const Button = styled.button`
 color : ${(props) => props.theme.textColor};
 background-color : ${(props) => props.theme.listColor};
-position : absolute;
-top : 50px;
-left : 100px;
 border-radius : 10px;
 border: none;
 padding : 10px;
 margin : 10px;
+position : absolute;
 `;
 
 

@@ -12,6 +12,7 @@ display : flex;
 flex-direction: column;
 margin : 0 auto;
 max-width : 480px;
+position : relative;
 `;
 
 const Loading = styled.div`
@@ -91,10 +92,10 @@ function Coins(){
       <Helmet>
       <title>Coin Tracker</title>
       </Helmet>
+      <Togglebutton/>
       {isLoading ? (<Loading>Loading...</Loading>) : (<>
         <Header>
         <Title>Coin Tracker</Title>
-        <Togglebutton/>
       </Header>
         <Content>
         <Coinlist>
